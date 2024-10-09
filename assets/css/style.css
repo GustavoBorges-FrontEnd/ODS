@@ -85,19 +85,6 @@ a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
 
-#whatsappButton {
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366;
-    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5); 
-    animation: pulse 2s infinite;
-}
-
-#whatsappButton i {
-    font-size: 24px;
-    color: #fff;
-}
-
 .fixed-button i {
     font-size: 24px;
 }
@@ -145,12 +132,8 @@ a {
 }
 
 /* Logo */
-.logo {
-    width: 100%;
-}
-
-.logo img {
-    width: 150px;
+header>h1{
+    color: white;
 }
 
 /* Menu */
@@ -285,7 +268,7 @@ a {
 }
 
 .titulo-inicio {
-    font-size: clamp(1rem, 2.5vw + .8rem, 3rem);
+    font-size: 15px;
     font-family: var(--font-grande);
     font-weight: normal;
 }
@@ -544,16 +527,6 @@ a {
     width: 90%;
     z-index: 1000;
     animation: rotate 20s linear infinite;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 .imagem-sobre img {
