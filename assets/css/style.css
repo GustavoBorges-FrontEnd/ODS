@@ -483,6 +483,7 @@ header>h1{
 .redes-sociais {
     width: 100%;
     display: flex;
+    font-size: 1.5rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -515,18 +516,12 @@ header>h1{
     position: absolute;
 }
 
-.complemento-sobre {
-    width: auto;
-    z-index: 0;
-}
-
-.complemento-sobre img {
-    position: relative;
-    left: 50px;
-    top: 50px;
-    width: 90%;
-    z-index: 1000;
-    animation: rotate 20s linear infinite;
+.complemento-sobre{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-sobre img {
@@ -715,6 +710,10 @@ header>h1{
     font-weight: normal;
 }
 
+.card-servicos-paragrafo{
+    font-family: var(--font-grande);
+}
+
 .card-icon {
     width: 25%;
     max-width: 120px;
@@ -760,7 +759,8 @@ header>h1{
 }
 
 .line-container.center {
-    justify-content: center;
+    justify-content: left;
+    font-size: 1.3rem;
 }
 
 .line-container.right {
@@ -993,7 +993,7 @@ header>h1{
 .titulo-contato h1 {
     color: var(--color-black);
     width: 50%;
-    font-size: 8vw;
+    font-size: 1vw;
     font-weight: lighter;
     font-family: var(--font-grande);
 }
@@ -1095,6 +1095,12 @@ header>h1{
 .logo-contato img {
     width: 80%;
     border-radius: 36px;
+}
+.imagem-meninas{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*************** FOOTER *****/
